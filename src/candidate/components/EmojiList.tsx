@@ -1,7 +1,10 @@
 import { Emoji } from "../interfaces";
 import { StatefulMenu } from "baseui/menu";
 
-export const EmojiList: React.FC<{ emojis: Emoji[]; onItemSelect: (item: Emoji) => void }> = ({ emojis, onItemSelect }) => {
+export const EmojiList: React.FC<{
+  emojis: Emoji[];
+  onItemSelect: (item: Emoji) => void;
+}> = ({ emojis, onItemSelect }) => {
   return (
     <StatefulMenu
       items={emojis}

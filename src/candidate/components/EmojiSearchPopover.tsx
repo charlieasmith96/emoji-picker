@@ -3,10 +3,10 @@ import { searchEmojis } from "../emoji-utils/emoji-lookup-utils";
 import { styled } from "styletron-react";
 import { Emoji } from "../interfaces";
 
-export const EmojiSearchPopover: React.FC<{ searchQuery?: string, onSelect: (item: Emoji) => void; }> = ({
-  searchQuery,
-  onSelect
-}) => {
+export const EmojiSearchPopover: React.FC<{
+  searchQuery?: string;
+  onSelect: (item: Emoji) => void;
+}> = ({ searchQuery, onSelect }) => {
   const emojis = searchEmojis(searchQuery);
 
   return (

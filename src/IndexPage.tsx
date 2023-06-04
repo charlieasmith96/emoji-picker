@@ -1,7 +1,7 @@
 import { Heading, HeadingLevel } from "baseui/heading";
 import { ParagraphMedium } from "baseui/typography";
 
-import { FancyInput } from "./candidate/FancyInput";
+import { FancyInput } from "./candidate/components/FancyInput";
 
 function IndexPage() {
   return (
