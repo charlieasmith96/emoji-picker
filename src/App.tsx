@@ -1,5 +1,5 @@
-import { IndexPage } from './IndexPage';
-import { Layout } from './Layout';
+import { IndexPage } from "./IndexPage";
+import { Layout } from "./Layout";
 
 function App() {
   return (

@@ -35,7 +35,7 @@ describe("emoji-lookup-utils", () => {
       expect(result).toHaveLength(1);
       expect(result).toEqual([
         {
-            emoji: "😕",
+          emoji: "😕",
           description: "confused face",
           aliases: ["confused"],
           tags: ["lost", "malcontent", "bored"],
@@ -83,7 +83,7 @@ describe("emoji-lookup-utils", () => {
           tags: ["lost", "malcontent", "bored"],
         },
         {
-            emoji: "😵",
+          emoji: "😵",
           description: "dizzy face",
           aliases: ["dead"],
           tags: ["shocked", "bored"],

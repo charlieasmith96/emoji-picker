@@ -5,10 +5,9 @@ export const searchEmojis = (
   searchQuery?: string,
   maximumNumberOfResults?: number
 ) => {
-
-    if (!searchQuery || searchQuery?.length < 2) {
-        return [];
-    }
+  if (!searchQuery || searchQuery?.length < 2) {
+    return [];
+  }
 
   const emojisSearchTarget = loadEmojisJsonFile();
 
