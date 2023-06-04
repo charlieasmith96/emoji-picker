@@ -1,4 +1,4 @@
-import { lookupEmojisBasedOnAliasAndTagAndDescription } from "../emoji-utils/emoji-lookup-utils";
+import { lookupEmojisBasedOnAliasAndTagAndDescription } from "./emoji-lookup-utils";
 import { Emoji } from "../interfaces";
 
 describe("emoji-lookup-utils", () => {
