@@ -1,13 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { Client as Styletron } from 'styletron-engine-atomic';
-import { Provider as StyletronProvider } from 'styletron-react';
-import { BaseProvider } from 'baseui';
+import React from "react";
+import ReactDOM from "react-dom";
+import { Client as Styletron } from "styletron-engine-atomic";
+import { Provider as StyletronProvider } from "styletron-react";
+import { BaseProvider } from "baseui";
 
-import reportWebVitals from './reportWebVitals';
-import ldtTheme from './theme';
-import App from './App';
-
+import reportWebVitals from "./reportWebVitals";
+import ldtTheme from "./theme";
+import App from "./App";
 
 const engine = new Styletron();
 
@@ -19,7 +18,7 @@ ReactDOM.render(
       </BaseProvider>
     </StyletronProvider>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function

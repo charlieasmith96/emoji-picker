@@ -1,25 +1,23 @@
-import { styled } from 'baseui';
+import { styled } from "baseui";
 
-const LayoutParent = styled('div', {
-  display: 'grid',
-  placeItems: 'center',
-  width: '100vw',
-  height: '100vh',
+const LayoutParent = styled("div", {
+  display: "grid",
+  placeItems: "center",
+  width: "100vw",
+  height: "100vh",
 });
 
-const LayoutCard = styled('div', {
-  display: 'flex',
-  width: 'clamp(46ch, 50%, 92ch);',
-  flexDirection: 'column',
-  padding: '1rem',
+const LayoutCard = styled("div", {
+  display: "flex",
+  width: "clamp(46ch, 50%, 92ch);",
+  flexDirection: "column",
+  padding: "1rem",
 });
 
 function Layout({ children }: { children: React.ReactNode }) {
   return (
     <LayoutParent>
-      <LayoutCard>
-        { children }
-      </LayoutCard>
+      <LayoutCard>{children}</LayoutCard>
     </LayoutParent>
   );
 }
