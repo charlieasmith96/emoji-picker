@@ -10,6 +10,7 @@ I have initialised Git tracking so you can read commit by commit if you prefer.
 
 My biggest regrets, which would be solved if I had more time:
 
-Ineffecient fetching and parsing of the JSON file
-Poor styling, some of which is inline (I didn't have time to make it look pretty or use the theme provided)
-Basic implementation means only first regex is matched
+- Ineffecient fetching and parsing of the JSON file
+- Poor styling, some of which is inline (I didn't have time to make it look pretty or use the theme provided)
+- Basic implementation means only first regex is matched
+- Greater test coverage
